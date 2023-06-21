@@ -22,6 +22,7 @@ hi @text.reference guifg=#fcc25d
 hi @text.uri cterm=underline gui=underline guifg=#b194fa
 hi @text.strong cterm=bold gui=bold
 hi @text.emphasis cterm=italic gui=italic
+hi @property guifg=#657779
 
 " Lazy.nvim.
 hi LazyButton guibg=#5a189a
