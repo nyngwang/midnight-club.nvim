@@ -60,11 +60,13 @@ hi IndentBlanklineSpaceChar cterm=nocombine ctermfg=NONE gui=nocombine guifg=#4d
 hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
 hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 
-" main.
+" lsp specials.
 hi LspInlayHint guifg=#00f5d4
 hi @type guifg=#4a6178
 hi @method guifg=#c9cba3
+hi @constant guifg=#908887
 
+" main.
 hi Normal guifg=#808080 guibg=#16161d
 hi NormalFloat ctermbg=NONE guibg=NONE
 hi Identifier guifg=#908887
