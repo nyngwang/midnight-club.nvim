@@ -46,7 +46,7 @@ hi NoiceScrollbar guibg=#212d40
 hi NoiceFormatEvent guifg=#8a817c
 hi NoiceFormatKind guifg=#bcb8b1
 hi NoiceFormatDate guifg=#aaaaaa
-hi Macro guifg=#9ef01a
+hi Macro guifg=#88d4ab
 hi Error guifg=#fb3475 guibg=bg
 hi ErrorMsg guifg=#fb3475 guibg=bg
 hi NvimInternalError guifg=#fb3475 guibg=bg
