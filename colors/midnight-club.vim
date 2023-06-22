@@ -73,7 +73,7 @@ hi CursorLineNr guifg=#303f4e
 hi LineNr guifg=#686858
 hi Directory guifg=#657779 " ?
 hi EndOfBuffer guifg=#403d39
-hi IncSearch guibg=#ffaf5f
+hi IncSearch gui=NONE guibg=#fdffb6 guifg=bg
 hi Search gui=reverse guifg=fg guibg=bg
 hi MatchParen guibg=NONE guifg=#9ef01a
 hi MoreMsg guifg=#303f4e
