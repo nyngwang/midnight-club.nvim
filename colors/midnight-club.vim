@@ -69,7 +69,7 @@ hi Cursor guifg=bg guibg=fg
 hi lCursor guifg=bg guibg=fg
 hi CursorLine guibg=#1f252c
 hi CursorLineNr guifg=#303f4e
-hi LineNr guifg=#4a5768
+hi LineNr guifg=#686858
 hi Directory guifg=#657779 " ?
 hi EndOfBuffer guifg=#403d39
 hi IncSearch guibg=#ffaf5f
