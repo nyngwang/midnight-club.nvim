@@ -138,3 +138,4 @@ hi DiagnosticUnderlineError gui=undercurl
 hi DiagnosticUnderlineWarn gui=undercurl
 hi DiagnosticUnderlineInfo gui=undercurl
 hi DiagnosticUnderlineHint gui=undercurl
+hi DiagnosticUnnecessary gui=NONE guifg=#5c5552
