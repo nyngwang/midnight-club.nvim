@@ -121,7 +121,7 @@ hi RedrawDebugRecompose ctermbg=9 guibg=Red
 hi Todo guifg=#111418
 hi String guifg=#cfdbd5
 hi Constant guifg=#cfdbd5
-hi Function guifg=#657779
+hi Function guifg=#c9cba3
 hi Conditional guifg=#ffae57
 hi Statement guifg=#ffae57
 hi Repeat guifg=#ffae57
