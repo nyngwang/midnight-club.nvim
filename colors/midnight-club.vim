@@ -37,7 +37,7 @@ hi FzfLuaTitle guifg=#9ef01a
 hi FzfLuaPreviewBorder guifg=#33415c
 hi FzfLuaBorder guifg=#33415c
 
-" debug Error for noice.nvim.
+" noice.nvim.
 hi NoiceMini guibg=#030707
 hi NoiceCmdlinePopup guibg=#1b1b1e
 hi NoiceCmdlineItems guibg=#1b1b1e
@@ -47,12 +47,6 @@ hi NoiceFormatEvent guifg=#8a817c
 hi NoiceFormatKind guifg=#bcb8b1
 hi NoiceFormatDate guifg=#aaaaaa
 hi Macro guifg=#88d4ab
-hi Error guifg=#fb3475 guibg=bg
-hi ErrorMsg guifg=#fb3475 guibg=bg
-hi NvimInternalError guifg=#fb3475 guibg=bg
-hi LspDiagnosticsVirtualTextError guifg=#fb3475 guibg=bg
-hi DiagnosticError guifg=#fb3475 guibg=bg
-hi DiagnosticUnderlineError cterm=undercurl gui=undercurl guisp=#fb3475
 
 " indentblankline.
 hi IndentBlanklineChar gui=nocombine guifg=#444C55
@@ -133,16 +127,14 @@ hi Type guifg=#303f4e
 hi Tag guifg=#7cb375
 hi Special guifg=#6c7689
 hi Delimiter guifg=#565656
-hi DiagnosticWarn guifg=#303f4e
-hi DiagnosticInfo guifg=#6c7689
-hi DiagnosticHint guifg=#ffae57
-hi DiagnosticOk ctermfg=10 guifg=LightGreen
-hi DiagnosticUnderlineWarn cterm=undercurl gui=undercurl guisp=#303f4e
-hi DiagnosticUnderlineInfo cterm=undercurl gui=undercurl guisp=#6c7689
-hi DiagnosticUnderlineHint cterm=undercurl gui=undercurl guisp=#ffae57
-hi DiagnosticUnderlineOk cterm=underline gui=underline guisp=LightGreen
 hi Comment cterm=italic gui=italic guifg=#686858
 
 hi Underlined cterm=underline gui=underline guifg=#657779
 hi Ignore ctermfg=0 guifg=bg
 hi @namespace guifg=#808080
+
+" LSP diagnostic.
+hi DiagnosticUnderlineError gui=undercurl
+hi DiagnosticUnderlineWarn gui=undercurl
+hi DiagnosticUnderlineInfo gui=undercurl
+hi DiagnosticUnderlineHint gui=undercurl
