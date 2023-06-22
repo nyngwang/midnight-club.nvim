@@ -25,8 +25,9 @@ hi @text.emphasis cterm=italic gui=italic
 hi @property guifg=#657779
 
 " Lazy.nvim.
-hi LazyButton guibg=#5a189a
-hi LazyButtonActive guibg=#d7263d
+hi LazyButton guibg=#433633
+hi LazyButtonActive guibg=#ffae57 guifg=bg
+hi LazySpecial guifg=#5c5552
 hi LazyDimmed guifg=#686858
 hi LazyProp guifg=#686858
 hi LazyCommit guifg=#aaaaaa
