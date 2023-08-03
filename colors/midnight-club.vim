@@ -140,3 +140,10 @@ hi DiagnosticUnderlineWarn gui=undercurl
 hi DiagnosticUnderlineInfo gui=undercurl
 hi DiagnosticUnderlineHint gui=undercurl
 hi DiagnosticUnnecessary gui=NONE guifg=#5c5552
+
+" Gitsigns.nvim
+hi GitSignsChange guifg=#fc735d
+hi GitSignsDelete guifg=#fb3475
+hi GitSignsAdd guifg=#7cb375
+hi GitSignsDeletePreview guifg=#eaf3f5 guibg=#321a26
+hi GitSignsAddInline guibg=#304936
