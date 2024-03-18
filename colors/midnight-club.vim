@@ -17,6 +17,7 @@ hi DapUIBreakpointsPath guifg=#d484ff
 
 " treesitter stuff.
 hi @tag.delimiter guifg=#75797a
+hi @tag.attribute guifg=#7f7f7f
 hi @text.literal guifg=#75797a
 hi @text.reference guifg=#fcc25d
 hi @text.uri cterm=underline gui=underline guifg=#b194fa
@@ -125,7 +126,7 @@ hi Keyword guifg=#ffae57
 hi Include guifg=#7c8692
 hi PreProc guifg=#7c8692
 hi Type guifg=#303f4e
-hi Tag guifg=#7cb375
+hi Tag guifg=#6c757d
 hi Special guifg=#6c7689
 hi Delimiter guifg=#565656
 hi Comment cterm=italic gui=italic guifg=#686858
