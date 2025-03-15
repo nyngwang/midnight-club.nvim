@@ -76,7 +76,7 @@ hi Directory guifg=#657779 " ?
 hi EndOfBuffer guifg=#403d39
 hi IncSearch gui=NONE guibg=#fdffb6 guifg=bg
 hi Search gui=reverse guifg=fg guibg=bg
-hi MatchParen guibg=NONE guifg=#9ef01a
+hi MatchParen guifg=#9ef01a guibg=NONE
 hi MoreMsg guifg=#303f4e
 hi ModeMsg cterm=bold gui=bold
 hi Question guifg=#ffae57
