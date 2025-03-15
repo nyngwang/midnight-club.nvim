@@ -129,7 +129,7 @@ hi Type guifg=#303f4e
 hi Tag guifg=#6c757d
 hi Special guifg=#6c7689
 hi Delimiter guifg=#565656
-hi Comment cterm=italic gui=italic guifg=#686858
+hi Comment guifg=#686858
 
 hi Underlined cterm=underline gui=underline guifg=#657779
 hi Ignore ctermfg=0 guifg=bg
