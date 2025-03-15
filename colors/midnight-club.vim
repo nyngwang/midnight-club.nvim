@@ -57,7 +57,7 @@ hi IndentBlanklineContextChar gui=nocombine guifg=#FB5E2A
 hi IndentBlanklineContextStart gui=underline guisp=#FB5E2A
 
 " lsp specials.
-hi LspInlayHint guifg=#00f5d4
+hi LspInlayHint guifg=#fdffb6 guibg=#30323d
 hi @type guifg=#4a6178
 hi @method guifg=#c9cba3
 hi @constant guifg=#908887
