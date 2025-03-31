@@ -63,7 +63,7 @@ hi @method guifg=#c9cba3
 hi @constant guifg=#908887
 
 " main.
-hi Normal guifg=#808080 guibg=#16161d
+hi Normal guifg=#808080 guibg=#101524
 hi NormalFloat ctermbg=NONE guibg=NONE
 hi Identifier guifg=#908887
 hi TermCursor cterm=reverse gui=reverse
